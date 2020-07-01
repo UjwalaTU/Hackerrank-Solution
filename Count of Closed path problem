@@ -1,0 +1,13 @@
+int closedPaths(int number) {
+  int c=0,n;
+  while(number!=0)
+  {
+     n=number%10;
+   if(n==0 || n==4 || n==6 || n==9)
+       c+=1;
+   else if(n==8)
+     c+=2;
+   number=number/10;
+  }
+  return c;
+}
