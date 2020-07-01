@@ -1,0 +1,12 @@
+int main()
+{
+    char ch;
+    int m1,m2,m3;
+    int avg;
+    scanf("%c",&ch);
+    scanf("%d %d %d",&m1,&m2,&m3);
+    avg=((m1+m2+m3)/3);
+    printf("%c\n",ch);
+    printf("%d",avg);
+    return 0;
+}
