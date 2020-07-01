@@ -1,0 +1,5 @@
+int addNumbers(float a,float b) {
+  int sum;
+  sum=(int)(a+b);
+  return sum;
+ } 
