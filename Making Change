@@ -1,0 +1,24 @@
+int main() {
+    int cents,n,t,l,q,d,ni,p;
+    scanf("%d",&cents);
+    n=cents;
+    t=n/200;
+    n=n%200;
+    l=n/100;
+    n=n%100;
+    q=n/25;
+    n=n%25;
+    d=n/10;
+    n=n%10;
+    ni=n/5;
+    n=n%5;
+    p=n/1;
+    n=n%1;
+    printf("%d toonies\n",t);
+    printf("%d loonies\n",l);
+    printf("%d quarters\n",q);
+    printf("%d dimes\n",d);
+    printf("%d nickels\n",ni);
+    printf("%d pennies\n",p);
+    return 0;
+}
