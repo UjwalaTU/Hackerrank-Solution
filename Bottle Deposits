@@ -1,0 +1,9 @@
+int main() {
+    int n,m;
+    float refund;
+    scanf("%d",&n);
+    scanf("%d",&m);
+    refund=(n*0.10)+(m*0.25);
+    printf("%.2f",refund);
+    return 0;
+}
