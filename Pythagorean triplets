@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main() {
+    int a,b,c,s1,s2;
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
+    if(a>b && a>c)
+    {
+        s1=(b*b)+(c*c);
+        s2=a*a;
+        if(s1==s2)
+            printf("yes");
+        else 
+            printf("no");
+        
+    }
+    else if(b>a && b>c)
+    {
+        s1=(a*a)+(c*c);
+        s2=b*b;
+        if(s1==s2)
+           printf("yes");
+        else 
+            printf("no");  
+    }
+    else if(c>a && c>b)
+    {
+         s1=(a*a)+(b*b);
+        s2=c*c;
+        if(s1==s2)
+           printf("yes");
+        else 
+            printf("no"); 
+    }
+    return 0;
+}
