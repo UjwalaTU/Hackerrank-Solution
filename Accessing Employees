@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main() {
+    float x,amt;
+    scanf("%f",&x);
+    if(x==0.0)
+    {
+        amt=0.0*2400.00;
+        printf("Unacceptable\n");
+        printf("$%.2f\n",amt);
+    }
+    else if(x==0.4f)
+    {
+        amt=0.4*2400.00;
+        printf("Acceptable\n");
+        printf("$%.2f\n",amt);
+    }
+    else if(x==0.6f)
+    {
+        amt=0.6*2400.00;
+        printf("Meritorious\n");
+        printf("$%.2f\n",amt);
+    }
+    else 
+    {
+            printf("Not a valid rating\n");
+    }
+    return 0;
+}
